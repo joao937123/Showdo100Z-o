@@ -19,7 +19,7 @@ public class Menu {
 		int resposta;
 
 		do {
-
+			
 			mostrarMenu();
 			resposta = sc.nextInt();
 
@@ -32,12 +32,11 @@ public class Menu {
 				break;
 			case 2:
 				Regras.mostrar();
-				System.out.println("Voce receberar uma pergunta gerada pelo sistema \n "
-						+ " Quando acerta a pergunta que foi gerada receberar uma taxa pra adicionar no seu dinheiro inicial \n"
-					    + "Se errar tera uma opcao se deseja sair ou continuar \n"
-						+ "Se escolher sair , tera uma taxa menor do total ganho ara sair\n"
-					    + "BOA SORTE ");
-						
+				System.out.println(" 01 - Você receberá uma pergunta gerada pelo sistema");
+				System.out.println(" 02 -Terá algumas alternativa , e somente  uma delas é a certa ");
+				System.out.println(" 03 - Se você acertar a reposta da pergunta , você recebera um bônus por ter acertado a pergunta ");
+				System.out.println(" 04- Caso erre , ira parar o jogo , então será não pode prosseguir jogando , só si começara de novo ");
+				System.out.println(" BOA SORTE ");
 				break;
 			default:
 				System.out.println("Valor digitado invalido");
